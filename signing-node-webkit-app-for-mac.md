@@ -1,7 +1,7 @@
 # Signing a Node-Webkit Mac Application
 (Tested on 10.9.5)
  
-## A. REQUEST CERTIFICATE 
+## A. Request Certificate
 Admin or Member:
 
 - [ ] Open "Keychain Access" on your Mac
@@ -9,7 +9,7 @@ Admin or Member:
 - [ ] Ensure "User Email Address" and "Common Name" are present, select "Save to disk" and "Continue".
 - [ ] Send the newly created file to your agent
 
-## B. GENERATE CERTIFICATE 
+## B. Generate Certificate
 Agent (Admin are not allowed to create "Developer ID" certificates - http://stackoverflow.com/a/21695283):
 
 - [ ] Go to https://developer.apple.com/account
@@ -21,13 +21,13 @@ Agent (Admin are not allowed to create "Developer ID" certificates - http://stac
 - [ ] Download the certificate
 - [ ] Send it to the requester
 
-## C. INSTALL CERTIFICATE 
+## C. Install Certificate
 Admin or Member:
 
 - [ ] Add the certificate in your keychain by double-clicking it
 - [ ] Copy "User ID" in clipboard
 
-## D. SIGN APP
+## D. Sign App
 Admin or Member:
 
 - [ ] Go to Terminal in the folder containing your .app
@@ -43,7 +43,7 @@ $ codesign --force --verify --verbose --sign "$identity" "$app/Contents/Framewor
 $ codesign --force --verify --verbose --sign "$identity" "$app"
 ```
 
-## E. VERIFY SIGNATURE
+## E. Verify Signature
 Admin or Member:
 
 - [ ] Go to Terminal in the folder containing your .app
