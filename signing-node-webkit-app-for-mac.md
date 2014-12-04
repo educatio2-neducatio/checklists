@@ -22,6 +22,7 @@ Agent (Admin are not allowed to create "Developer ID" certificates - http://stac
 
 ## C. INSTALL CERTIFICATE 
 Admin or Member:
+
 1. Add the certificate in your keychain by double-clicking it
 1. Copy "User ID" in clipboard
 
@@ -57,7 +58,7 @@ $ spctl --enable --rule 6 # matching the rule # above
 $ spctl --enable --rule 7 # matching the rule # above
 ```
 
-1. And then:
+And then:
 
 ```
 $ codesign --verify --verbose=4 "$app"
