@@ -12,25 +12,25 @@ Admin or Member:
 ## B. GENERATE CERTIFICATE 
 Agent (Admin are not allowed to create "Developer ID" certificates - http://stackoverflow.com/a/21695283):
 
-1. Go to https://developer.apple.com/account
-1. Sign up and go to "Mac Apps" > "Certificates" > "+"
-1. Select "Developer ID" at the bottom of the list and "Continue"
-1. Select "Developer ID Application" and "Continue"
-1. Select "Continue"
-1. Upload the CSR file sent by admin (or dev)
-1. Download the certificate
-1. Send it to the requester
+- [ ] Go to https://developer.apple.com/account
+- [ ] Sign up and go to "Mac Apps" > "Certificates" > "+"
+- [ ] Select "Developer ID" at the bottom of the list and "Continue"
+- [ ] Select "Developer ID Application" and "Continue"
+- [ ] Select "Continue"
+- [ ] Upload the CSR file sent by admin (or dev)
+- [ ] Download the certificate
+- [ ] Send it to the requester
 
 ## C. INSTALL CERTIFICATE 
 Admin or Member:
 
-1. Add the certificate in your keychain by double-clicking it
-1. Copy "User ID" in clipboard
+- [ ] Add the certificate in your keychain by double-clicking it
+- [ ] Copy "User ID" in clipboard
 
 ## D. SIGN APP
 Admin or Member:
 
-1. Go to Terminal in the folder containing your .app
+- [ ] Go to Terminal in the folder containing your .app
 
 ```
 $ app="Your\ App.app"
@@ -46,8 +46,8 @@ $ codesign --force --verify --verbose --sign "$identity" "$app"
 ## E. VERIFY SIGNATURE
 Admin or Member:
 
-1. Go to Terminal in the folder containing your .app
-1. Ensure spctl accept apps signed with "Developer ID"
+- [ ] Go to Terminal in the folder containing your .app
+- [ ] Ensure spctl accept apps signed with "Developer ID"
 
 ```
 $ spctl --list --label "Developer ID"
