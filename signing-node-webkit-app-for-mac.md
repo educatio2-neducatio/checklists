@@ -1,4 +1,4 @@
-Signing a Node-Webkit Mac Application (Tested on 10.9.5)
+# Signing a Node-Webkit Mac Application (Tested on 10.9.5)
 
 ## A. REQUEST CERTIFICATE 
 Admin or Member:
