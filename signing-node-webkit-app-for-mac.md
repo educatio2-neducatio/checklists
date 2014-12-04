@@ -4,10 +4,10 @@
 ## A. REQUEST CERTIFICATE 
 Admin or Member:
 
-1. Open "Keychain Access" on your Mac
-1. In the menu bar: "Keychain Access" > "Certificate Assistant" > "Request a Certificate From a Certificate Authority"
-1. Ensure "User Email Address" and "Common Name" are present, select "Save to disk" and "Continue".
-1. Send the newly created file to your agent
+- [ ] Open "Keychain Access" on your Mac
+- [ ] In the menu bar: "Keychain Access" > "Certificate Assistant" > "Request a Certificate From a Certificate Authority"
+- [ ] Ensure "User Email Address" and "Common Name" are present, select "Save to disk" and "Continue".
+- [ ] Send the newly created file to your agent
 
 ## B. GENERATE CERTIFICATE 
 Agent (Admin are not allowed to create "Developer ID" certificates - http://stackoverflow.com/a/21695283):
