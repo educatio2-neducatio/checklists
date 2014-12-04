@@ -1,6 +1,6 @@
 Signing a Node-Webkit Mac Application (Tested on 10.9.5)
 
-# A. REQUEST CERTIFICATE 
+## A. REQUEST CERTIFICATE 
 Admin or Member:
 
 1. Open "Keychain Access" on your Mac
@@ -8,7 +8,7 @@ Admin or Member:
 1. Ensure "User Email Address" and "Common Name" are present, select "Save to disk" and "Continue".
 1. Send the newly created file to your agent
 
-# B. GENERATE CERTIFICATE 
+## B. GENERATE CERTIFICATE 
 Agent (Admin are not allowed to create "Developer ID" certificates - http://stackoverflow.com/a/21695283):
 
 1. Go to https://developer.apple.com/account
@@ -20,12 +20,12 @@ Agent (Admin are not allowed to create "Developer ID" certificates - http://stac
 1. Download the certificate
 1. Send it to the requester
 
-# C. INSTALL CERTIFICATE 
+## C. INSTALL CERTIFICATE 
 Admin or Member:
 1. Add the certificate in your keychain by double-clicking it
 1. Copy "User ID" in clipboard
 
-# D. SIGN APP
+## D. SIGN APP
 Admin or Member:
 
 1. Go to Terminal in the folder containing your .app
@@ -41,10 +41,12 @@ $ codesign --force --verify --verbose --sign "$identity" "$app/Contents/Framewor
 $ codesign --force --verify --verbose --sign "$identity" "$app"
 ```
 
-# E. VERIFY SIGNATURE
+## E. VERIFY SIGNATURE
 Admin or Member:
+
 1. Go to Terminal in the folder containing your .app
 1. Ensure spctl accept apps signed with "Developer ID"
+
 ```
 $ spctl --list --label "Developer ID"
 > 6[Developer ID] P0 allow execute
@@ -53,7 +55,11 @@ $ spctl --list --label "Developer ID"
 >   anchor apple generic ...
 $ spctl --enable --rule 6 # matching the rule # above
 $ spctl --enable --rule 7 # matching the rule # above
+```
+
 1. And then:
+
+```
 $ codesign --verify --verbose=4 "$app"
 ...
 > $app: valid on disk
