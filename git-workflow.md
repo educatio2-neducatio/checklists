@@ -2,23 +2,33 @@
 
 ## Starting a new feature (working branch)
 
-* Branch the current state-of-the-art branch (master by default, another feature branch if neeeded)
-* Create a PR against master (if the parent branch is not master, mention in description that this PR depends on another branch with "Depends on: #pr-number")
-* Work on it and do some commits
-* Push them when ready
+Did I?
 
-## Asking a PR for review:
+- [ ] Branch the current state-of-the-art branch (master by default, another feature branch if neeeded)
+- [ ] Work on it and do some commits
+- [ ] Publish your branch when ready
 
-* Assign a teammate to the PR.
+## Asking for review:
+
+Did I?
+
+- [ ] Create a PR against master 
+- [ ] Assign a teammate to the PR 
+
+If the parent branch is not master:
+
+- [ ] Mention in description that this PR depends on another branch with `"Depends on: #pr-number"`
 
 ## Reviewing a PR:
 
-> Do not review a PR that depends on an unclosed PR
+> :warning: Do not review a PR that depends on an unclosed PR
 
-* Checkout the feature branch
-* Rebase on master (:warning: never merge a branch on a feature branch - you will get crazy trying to squash your commits, and you will probably lose some work :warning:)
-* Push the feature branch
-* Make comments/review on the diff
+> :warning: Never merge a branch on a feature branch - you will get crazy trying to squash your commits, and you will probably lose some work
+
+- [ ] Checkout the feature branch
+- [ ] Rebase on master
+- [ ] Push the feature branch
+- [ ] Make comments/review on the diff
 
 ## Merging a PR:
 
