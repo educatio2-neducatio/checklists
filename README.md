@@ -2,7 +2,7 @@ Checklists
 ==========
 
 Processes as Checklists at Solved
-This repo is public feel free to add suggestions. We are trying to improve our processes every day.
+This repo is public. Feel free to add suggestions. We are trying to improve our processes every day.
 
 Tech checklists
 ---------------
