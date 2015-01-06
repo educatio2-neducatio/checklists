@@ -13,7 +13,7 @@ Tech checklists
 ---------------
 
 * [Install Dev Environment on Mac](https://github.com/solvedio/checklists/blob/master/install-dev-environment-mac.md)
-* [Take part in the company workflow](https://github.com/solvedio/checklists/blob/master/git-workflow.md)
+* [Take part in our Git Workflow](https://github.com/solvedio/checklists/blob/master/git-workflow.md)
 * [Signing a Node-Webkit Mac Application](https://github.com/solvedio/checklists/blob/master/signing-node-webkit-app-for-mac.md)
 
 
