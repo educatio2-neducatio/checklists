@@ -8,6 +8,7 @@ Biz checklists
 --------------
 
 * [Report a bug](https://github.com/solvedio/checklists/blob/master/bug-report.md)
+* [How to write commits](https://github.com/solvedio/checklists/blob/master/naming-commits.md)
 
 Tech checklists
 ---------------
