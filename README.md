@@ -7,7 +7,7 @@ This repo is public. Feel free to add suggestions. We are trying to improve our 
 Biz checklists
 --------------
 
-* [How to report a bug](https://github.com/solvedio/checklists/blob/master/bug-report.md)
+* [Report a bug](https://github.com/solvedio/checklists/blob/master/bug-report.md)
 
 Tech checklists
 ---------------
