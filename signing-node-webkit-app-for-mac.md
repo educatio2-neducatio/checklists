@@ -36,10 +36,10 @@ Admin or Member:
 $ app="Your\ App.app"
 $ identity="User ID" # (pasted from clipboard)
 $ codesign --force --verify --verbose --sign "$identity" "$app/Contents/Frameworks/crash_inspector"
-$ codesign --force --verify --verbose --sign "$identity" "$app/Contents/Frameworks/node-webkit Framework.framework"
-$ codesign --force --verify --verbose --sign "$identity" "$app/Contents/Frameworks/node-webkit Helper EH.app"
-$ codesign --force --verify --verbose --sign "$identity" "$app/Contents/Frameworks/node-webkit Helper NP.app"
-$ codesign --force --verify --verbose --sign "$identity" "$app/Contents/Frameworks/node-webkit Helper.app"
+$ codesign --force --verify --verbose --sign "$identity" "$app/Contents/Frameworks/nwjs Framework.framework"
+$ codesign --force --verify --verbose --sign "$identity" "$app/Contents/Frameworks/nwjs Helper EH.app"
+$ codesign --force --verify --verbose --sign "$identity" "$app/Contents/Frameworks/nwjs Helper NP.app"
+$ codesign --force --verify --verbose --sign "$identity" "$app/Contents/Frameworks/nwjs Helper.app"
 $ codesign --force --verify --verbose --sign "$identity" "$app"
 ```
 
